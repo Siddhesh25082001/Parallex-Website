@@ -68,3 +68,25 @@ html, body{
     padding: 5px 10px;
     border-radius: 15px;
 }
+
+@media only screen and (max-width: 600px){
+    .img1{
+    background-image: url("../images/image1.jpg");
+    min-height: 100%;
+}
+
+.img2{
+    background-image: url("../images/image2.jpg");
+    min-height: 400px;
+}
+
+.img3{
+    background-image: url("../images/image3.jpg");
+    min-height: 400px;
+}
+
+.img4{
+    background-image: url("../images/image4.jpg");
+    min-height: 600px;
+}
+}
